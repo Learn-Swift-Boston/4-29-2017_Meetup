@@ -10,3 +10,6 @@ Bryan taught us about how to play Cee-lo, while showing us examples of closures,
 We then discussed the difference between `@escaping` and `@non-escaping` closures and how they're commonly used in networking code.
 
 If you found any of the synopsis confusing, please check out the playground he used for demonstration. If you can't remember what the syntax was for your favorite closure, you can always check out http://goshdarnclosuresyntax.com/ to see the syntax in common use cases.
+
+#Dev Tools
+Matt talked about things and will do a real write up in a hot minute.
