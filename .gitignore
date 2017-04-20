@@ -24,7 +24,6 @@ DerivedData
 compile_commands.json
 report.html
 
-Podfile.lock
 Pods
 
 # Fastlane
