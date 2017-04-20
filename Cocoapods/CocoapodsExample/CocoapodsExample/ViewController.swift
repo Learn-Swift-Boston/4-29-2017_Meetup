@@ -13,15 +13,6 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		/*
-[MBProgressHUD showHUDAddedTo:self.view animated:YES];
-dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
-// Do something...
-dispatch_async(dispatch_get_main_queue(), ^{
-[MBProgressHUD hideHUDForView:self.view animated:YES];
-});
-});
-*/
 
 	}
 
@@ -30,7 +21,7 @@ dispatch_async(dispatch_get_main_queue(), ^{
 
 		let hud = MBProgressHUD(view: self.view)
 		self.view.addSubview(hud)
-		
+
 		hud.show(animated: true)
 	}
 
