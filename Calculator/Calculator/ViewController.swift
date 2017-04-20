@@ -26,7 +26,8 @@ class ViewController: UIViewController {
 	var operation: Operations?
 	var operands = [0]
 
-	override func viewDidLoad() {
+	override func viewDidLoad()
+	{
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
+		// TODO: Dispose of any resources that can be recreated.
 	}
 
 	@IBAction func tappedNumber(_ sender: UIButton) {
@@ -55,6 +56,17 @@ class ViewController: UIViewController {
 
 		resultLabel.text = resultText + "\(sender.tag)"
 	}
+
+
+
+
+
+
+
+
+
+
+	
 
 	@IBAction func plusTapped(_ sender: Any) {
 		guard let resultText = resultLabel.text else {
@@ -83,14 +95,20 @@ class ViewController: UIViewController {
 
 		operands.append(operand)
 
-		switch operation {
+		switch operation
+		{
 		case .plus:
 			operands.forEach({ (val) in
 				result += val
 			})
 		default:
 			return
+
+
 		}
 	}
 
 }
+
+
+
